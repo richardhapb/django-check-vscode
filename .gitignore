@@ -3,3 +3,4 @@ out
 tsconfig.js
 tsconfig.js.map
 vsc-extension-quickstart.md
+*.vsix
