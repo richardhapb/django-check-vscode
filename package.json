@@ -1,0 +1,42 @@
+{
+  "name": "Django-Check",
+  "displayName": "Django-Check",
+  "description": "Static N+1 query detection for Django",
+  "version": "0.1.0",
+"repository": "https://github.com/richardhapb/django-check-vscode",
+  "publisher": "richardhapb",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "activationEvents": [
+    "onLanguage:python"
+  ],
+  "main": "./out/extension.js",
+  "files": [
+    "bin/**"
+  ],
+  "contributes": {
+    "configuration": {
+      "type": "object",
+      "title": "django-check",
+      "properties": {
+        "lspdock.binaryPath": {
+          "type": "string",
+          "default": "djch",
+          "description": "Path to django-check binary"
+        }
+      }
+    }
+  },
+  "dependencies": {
+    "vscode-languageclient": "^9.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^18.0.0",
+    "@types/vscode": "^1.80.0",
+    "typescript": "^5.0.0"
+  }
+}

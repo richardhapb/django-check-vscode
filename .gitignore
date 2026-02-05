@@ -1,0 +1,5 @@
+node_modules
+out
+tsconfig.js
+tsconfig.js.map
+vsc-extension-quickstart.md
