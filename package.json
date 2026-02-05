@@ -2,16 +2,18 @@
   "name": "Django-Check",
   "displayName": "Django-Check",
   "description": "Static N+1 query detection for Django",
-  "version": "0.1.1",
-  "repository": "https://github.com/richardhapb/django-check-vscode",
+  "version": "0.1.2",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/django-check-vscode"
+  },
   "icon": "icon.png",
+  "categories": ["Programming Languages", "Linters"],
+  "keywords": ["django", "python", "lsp", "orm", "models"],
   "publisher": "richardhapb",
   "engines": {
     "vscode": "^1.80.0"
   },
-  "categories": [
-    "Programming Languages"
-  ],
   "activationEvents": [
     "onLanguage:python"
   ],
