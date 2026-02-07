@@ -2,7 +2,7 @@
   "name": "Django-Check",
   "displayName": "Django-Check",
   "description": "Static N+1 query detection for Django",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "repository": {
     "type": "git",
     "url": "https://github.com/richardhapb/django-check-vscode"
